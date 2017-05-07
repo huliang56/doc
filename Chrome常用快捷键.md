@@ -1,4 +1,4 @@
-#Chrome常用快捷键
+# Chrome常用快捷键
 Ctrl+N              打开新窗口
 Ctrl+T              打开新标签页
 Ctrl+Shift+N        在隐身模式下打开新窗口
@@ -28,7 +28,7 @@ Shift+Esc           打开“任务管理器”
 Ctrl+Shift+Delete   打开“清除浏览数据”对话框
 F12或Ctrl+Shift+I/J 打开“开发人员工具”
 
-######调试面板
+###### 调试面板
 Ctrl+L              清屏
 Ctrl+F              搜索
 Ctrl+Shift+F        搜索所有的源文件
