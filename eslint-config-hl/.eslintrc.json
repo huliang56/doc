@@ -1,0 +1,19 @@
+{
+    "env": {
+        "browser": true,
+        "jquery": true,
+        "node": true,
+        "es6": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "semi": [2, "always"],
+        "quotes": [1, "single"],
+        "indent": [1, 2],
+        "curly": [2, "multi-line"],
+        "no-new-func": 1,
+        "no-console": 0,
+        "no-octal": 1,
+        "eqeqeq": 2
+    }
+}
