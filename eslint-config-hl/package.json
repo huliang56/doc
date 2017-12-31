@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hl",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "eslint config for tes",
   "main": "index.js",
   "scripts": {
@@ -12,6 +12,10 @@
     "tes",
     "huliang"
   ],
+  "repository": "https://github.com/huliang56/docs/eslint-config-hl",
+  "peerDependencies": {
+    "eslint": "^2.8.0"
+  },
   "author": "huliang <hu_liang56@163.com>",
   "license": "ISC"
 }
