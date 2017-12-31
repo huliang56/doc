@@ -1,0 +1,17 @@
+{
+  "name": "eslint-config-hl",
+  "version": "1.0.0",
+  "description": "eslint config for tes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "tes",
+    "huliang"
+  ],
+  "author": "huliang <hu_liang56@163.com>",
+  "license": "ISC"
+}
