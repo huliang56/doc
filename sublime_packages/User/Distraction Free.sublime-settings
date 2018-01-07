@@ -1,0 +1,25 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+
+	"font_size": 10,
+
+	// 自动移除行尾多余空格。
+	"trim_trailing_white_space_on_save": true,
+
+	// 文件末尾自动保留一个空行
+	"ensure_newline_at_eof_on_save": true,
+
+	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+
+	// 侧边栏文件夹显示加粗，区别于文件。
+	"bold_folder_labels": true,
+
+	// 高亮编辑中的那一行
+	"highlight_line": true,
+
+	"ignored_packages":
+	[
+		"Vintage"
+	]
+}

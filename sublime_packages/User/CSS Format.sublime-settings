@@ -1,0 +1,7 @@
+{
+  "indentation": "  ",
+  "expand_block_break": "\n",
+  "format_on_save": false,
+  "format_on_save_action": "expand",
+  "format_on_save_filter": "\\.(css|sass|scss|less)$"
+}

@@ -1,0 +1,38 @@
+{
+	"Seti_ClosedFolder_anim": true,
+	"Seti_accent_teal": true,
+	"Seti_alt_tree_row": true,
+	"Seti_bold_heading": true,
+	"Seti_bold_slctdfile_labels": true,
+	"Seti_bold_slctdtab_labels": true,
+	"Seti_no_scroll_icons": true,
+	"Seti_panel_nrml": true,
+	"Seti_sb_tree_tiny": true,
+	"Seti_show_group_arrows": true,
+	"Seti_sidebar_font_size_12": true,
+	"Seti_tabs_big": true,
+	"Seti_teal_map": true,
+	"Seti_teal_scrollbar": true,
+	"Seti_teal_statusbar": true,
+	"Seti_teal_tab": true,
+	"Seti_teal_tabclose": true,
+	"Seti_top_heading_anim": true,
+	"Seti_use_system_title_bar": true,
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"font_face": "Consolas YaHei Hybrid",
+	"font_size": 14,
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"mouse_wheel_tabswitch": true,
+	"show_definitions": false,
+	"tab_size": 2,
+	"theme": "Seti.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"':,.;<>~!@#$%^&*|+=[]{}`~?"
+}
