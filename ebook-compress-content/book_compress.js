@@ -12,7 +12,7 @@ fs.readdir(dir, (err, files) => {
   }
 
   let book = {
-    name: 'jckj',
+    name: '基础会计',
     isbn: 'jckjV3',
     chapters: []
   };
@@ -162,6 +162,7 @@ function generateBookContent(book, files) {
       });
     });
     bookHtml += '</div>\n</div>';
+    bookHtml += '\n\n<!-- 书本内弹窗遮罩 -->\n<div class="book-mask" ignore="1"></div>';
     return bookHtml;
   }
 }
