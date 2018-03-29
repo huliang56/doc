@@ -4,6 +4,7 @@ const _ = require('lodash');
 const dir = path.join(__dirname, 'content/');
 const fileDir = path.join(__dirname, 'content_compressed/');
 
+const sectionKey = 'h3_title';
 
 fs.readdir(dir, (err, files) => {
   if (!files.length) {
@@ -12,8 +13,8 @@ fs.readdir(dir, (err, files) => {
   }
 
   let book = {
-    name: '基础会计',
-    isbn: 'jckjV3',
+    name: '电子技术基础',
+    isbn: 'dzjsjcV3',
     chapters: []
   };
 
@@ -55,7 +56,7 @@ function generateBookMenu(book, files) {
     let content = fs.readFileSync(dir + file, 'utf-8') + '\n\n';
 
     // 若是一个新的节，保留记录
-    if (content.indexOf('h1Title') !== -1) {
+    if (content.indexOf(sectionKey) !== -1) {
       bookChapter.sections[chapterObjLength] = {
         name: '第' + (chapterObjLength + 1) + '节',
         courses: []
@@ -120,7 +121,7 @@ function generateBookContent(book, files) {
   _.forEach(bookData, (chapter) => {
     let sectionNum = 0;
     _.forEach(chapter.pages, (pages) => {
-      (pages.data.indexOf('h1Title') !== -1) && sectionNum++;
+      (pages.data.indexOf(sectionKey) !== -1) && sectionNum++;
       pages.section = !sectionNum ? 1 : sectionNum;
     });
   });
