@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-hl",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "eslint config for tes",
   "main": "index.js",
   "scripts": {

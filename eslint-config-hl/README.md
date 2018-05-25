@@ -7,9 +7,9 @@ $ npm install eslint-config-hl
 ```
 
 ## 使用方法
-在项目根目录下新建文件`.eslintrc.js`：
+在项目根目录下新建文件`.eslintrc.json`：
 ```javascript
-module.exports = {
-  extends: 'hl',
-};
+{
+  "extends": "hl"
+}
 ```
