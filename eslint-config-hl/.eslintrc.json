@@ -7,7 +7,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-        "semi": [2, "always"],
+        "semi": [1, "always"],
         "quotes": [1, "single"],
         "indent": [1, 2],
         "curly": [2, "multi-line"],
