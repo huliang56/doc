@@ -21,14 +21,14 @@
 	"bold_folder_labels": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended Bright (SL).tmTheme",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Consolas YaHei Hybrid",
-	"font_size": 14,
+	"expand_tabs_on_save": true,
+	"font_face": "Consolas, Courier New",
+	"font_size": 19,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"mouse_wheel_tabswitch": true,
 	"show_definitions": false,
 	"tab_size": 2,
 	"theme": "Seti.sublime-theme",

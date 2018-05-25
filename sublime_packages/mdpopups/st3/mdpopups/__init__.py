@@ -522,6 +522,16 @@ def syntax_highlight(view, src, language=None, inline=False, allow_code_wrap=Fal
     return code
 
 
+def tabs2spaces(text, tab_size=4):
+    """
+    Convert tabs to spaces on tab stops.
+
+    Does not account for char width.
+    """
+
+    return text.expandtabs(tab_size)
+
+
 def scope2style(view, scope, selected=False, explicit_background=False):
     """Convert the scope to a style."""
 

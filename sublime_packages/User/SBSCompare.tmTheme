@@ -938,7 +938,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#967EFB</string>
+				<string>#FC951E</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1022,7 +1022,7 @@
                 <key>foreground</key>
                 <string>#D02000</string>
             </dict>
-        </dict><dict><key>name</key><string>Comparison removed</string><key>scope</key><string>comparison.removed</string><key>settings</key><dict><key>background</key><string>#bf616a</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_addition</string><key>scope</key><string>comparison.modified_addition</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_deletion</string><key>scope</key><string>comparison.modified_deletion</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison added</string><key>scope</key><string>comparison.added</string><key>settings</key><dict><key>background</key><string>#a3be8c</string><key>foreground</key><string>#2b303b</string></dict></dict></array>
+        </dict><dict><key>name</key><string>Comparison removed</string><key>scope</key><string>comparison.removed</string><key>settings</key><dict><key>background</key><string>#bf616a</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_deletion</string><key>scope</key><string>comparison.modified_deletion</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison added</string><key>scope</key><string>comparison.added</string><key>settings</key><dict><key>background</key><string>#a3be8c</string><key>foreground</key><string>#2b303b</string></dict></dict><dict><key>name</key><string>Comparison modified_addition</string><key>scope</key><string>comparison.modified_addition</string><key>settings</key><dict><key>background</key><string>#7fa3c7</string><key>foreground</key><string>#2b303b</string></dict></dict></array>
 	<key>uuid</key>
 	<string>b76b4488-20c3-40a7-9499-457a451ee558</string>
 </dict>

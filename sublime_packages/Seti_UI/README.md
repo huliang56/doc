@@ -1,5 +1,8 @@
 # Seti
 
+[![Packagecontrol total downloads](https://img.shields.io/packagecontrol/dt/Seti_UI.svg)](https://packagecontrol.io/packages/Seti_UI/)
+[![Donate with Bitcoin](https://en.cryptobadges.io/badge/micro/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)](https://en.cryptobadges.io/donate/16ri7Hh848bw7vxbEevKHFuHXLmsV8Vc9L)
+
 `SublimeText 3 Theme` Port of Seti_UI by [jesseweed](https://github.com/jesseweed/seti-ui)
 
 ### Seti
@@ -32,7 +35,7 @@ open your Sublime Text "user settings" and add what you need from below.
 // tabs
   "Seti_tabs_small"                   // tabs height = 35
   "Seti_tabs_med"                     // tabs height = 40
-  "Seti_tabs_big"                     // tabs height = 54
+  "Seti_tabs_big"                     // tabs height = "seti=45" / "seti_orig=54"
   "Seti_tabs_no_min_width"            // (issues/223)
   "Seti_tab_font_12"                  // tab font size = 12
   "mouse_wheel_tabswitch"             // scroll through opened tabs

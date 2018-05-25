@@ -14,10 +14,20 @@
         "tab_overlap": 17,
         "tab_width": 190,
         "tab_min_width": 100,
-        "tab_height": 40,
+        "tab_height": 35,
         "mouse_wheel_switch": false
     },
     // options
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_med"],
+        "tab_height": 40
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["Seti_tabs_big"],
+        "tab_height": 45
+    },
     {
         "class": "tabset_control",
         "settings": ["mouse_wheel_tabswitch"],
@@ -289,12 +299,12 @@
         "settings": ["Seti_no_scroll_icons"],
         "content_margin": 0
     },
-    // {
-    //     "class": "show_tabs_dropdown_button",
-    //     "settings": ["Seti_no_scroll_icons"],
-    //     "content_margin": 0,
-    //     "layer0.inner_margin": 0
-    // },
+    {
+        "class": "show_tabs_dropdown_button",
+        "settings": ["Seti_no_scroll_icons"],
+        "content_margin": 0,
+        "layer0.inner_margin": 0
+    },
     {
         "class": "scroll_tabs_right_button",
         "settings": ["Seti_no_scroll_icons"],
@@ -3392,7 +3402,6 @@
     {
         "class": "icon_folder",
         "settings": ["Seti_accent"],
-        "layer0.inner_margin": [-3,-3,-5,-3],
         "parents": [{ "class": "tree_row", "attributes": ["expanded"]}],
         "layer0.texture": "Seti_UI/Main/folder@2x.png",
         "content_margin": 8
